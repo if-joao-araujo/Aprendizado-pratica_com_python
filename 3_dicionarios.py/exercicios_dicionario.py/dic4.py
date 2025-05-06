@@ -3,28 +3,31 @@ usando um dicionário. Inclua funções para adicionar, buscar e listar contatos
 
 def contato():
     contador  = 1
-    condição = False
+    condicao = False
     dic = {}
-    exclusao = 0
     item = 0
-    while condição == False:
-        opcao = int(input("deseja adicionar contato[1], ou [2] sair ou [3] para excluir --> "))
+    while  condicao == False:
+        opcao = int(input("deseja adicionar contato[1],[2] para excluir ou [3] sair --> "))
         if opcao == 1:
+            
             nome   = input("digite o nome--> ")
             numero = input("digite o numero--> ")
+            dic[f"chave{contador}"] = {"nome": nome, "numero": numero}
+            print(f"{dic[f"chave{contador}"]} --> adicionado com sucesso\n")
             contador +=1
-            dic["contato":contador] = {"nome": nome, "numero": numero}
-            print(f"{dic["contato":contador]} --> adicionado com sucesso")
+    
         elif opcao == 2:
-          return dic 
+            print(f"numeros disponiveis: {dic}:  \n")
+            exclusao = input("deseja excluir qual contato ex: chave1, chave2....--> ")
+            if exclusao in dic:
+               excluido = dic.pop(exclusao)
+               print(f"{excluido} excluido com sucesso ")   
+            else:
+                print(f" contato não encontrado\n")
+
         elif opcao == 3:
-             print("contatos\n")
-             for chave,valor in dic.items():  
-                 print(f"{chave}: {valor} \n")
-                 exclusao = input("deseja excluir qual contato--> ")
-                 if exclusao in dic.items():
-                    valor_excluido = dic.pop(exclusao)
-                    print(f"{valor_excluido} excluido com sucesso ")
-                 else:
-                     print(f" contato não encontrado\n")
-print(contato())
+             for c in dic.items():
+                 print(c)  
+             condicao = True  
+
+contato()
