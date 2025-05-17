@@ -5,7 +5,7 @@ valor da hipotenusa atraves da equacao.  ̃"""
 
 def hipotenusa(a,b):
     hipo = ((a**2)+(b**2))**0.5
-    return f"A hipotenusa é --> {hipo}"
+    return hipo
 
 a = int(input("digite o valor a---> "))
 b = int(input("digite o valor b---> "))
