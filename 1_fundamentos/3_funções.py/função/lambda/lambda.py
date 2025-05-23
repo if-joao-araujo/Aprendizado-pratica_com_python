@@ -15,4 +15,4 @@ nota_filmes = {"jogos vorazes":[8.7,9.2,7.4],
                "it a coisa ":[8.9,9.3,7.6]
                }
 nota_media = lambda media: sum(nota_filmes[media]) / len(nota_filmes[media])
-print(nota_media("predad r"))
+print(nota_media("predador"))
