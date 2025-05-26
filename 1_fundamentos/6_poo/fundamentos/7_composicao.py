@@ -30,5 +30,5 @@ class game_estudio:
         if num_games == 0:
             print(f"o estudio {self.nome} ainda não lançou jogo")
         else:
-             avarege_note = total_notes / num_games
+             avarege_note = total_notas / num_games
              print(f"Nota ")
