@@ -11,8 +11,7 @@ for i in range(0,3):
         linha.append(produto)
     matriz.append(linha) 
 
-for linhas in range(0,3):
-    for colunas in range(0,3):
-        print(matriz, end= "  ")
-        print()
-#está imcorreto ,-,
+for linhas in matriz:
+    for colunas in linhas:
+        print(f" [{colunas}]  ", end= "  ")
+    print()
