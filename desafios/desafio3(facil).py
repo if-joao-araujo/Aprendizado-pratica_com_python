@@ -3,7 +3,7 @@ a soma da serie harmonica:  ́
 
 H(n) = 1 + 1/2 + 1/3 + 1/4 + ... + 1/n
 
-Fac ̧a um programa que leia um valor n inteiro e positivo e apresente 
+Faca um programa que leia um valor n inteiro e positivo e apresente 
 o valor de H(n)."""
 n = int(input("digite o valor: "))
 soma = 0
