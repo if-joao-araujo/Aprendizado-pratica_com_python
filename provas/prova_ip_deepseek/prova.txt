@@ -1,0 +1,80 @@
+# **Prova de Introdução à Programação**  
+**Nome:** _____________________________  
+**Data:** ___/___/___  
+**Duração:** 1h30  
+
+---
+
+## **Instruções:**  
+- Responda **todas** as questões **no caderno**, escrevendo os códigos solicitados.  
+- Utilize **comentários** no código quando necessário para explicar sua lógica.  
+- A prova é individual e sem consulta.  
+
+---
+
+Questão 1 (2,0 pontos)**  
+Escreva um programa em Python que:**  
+peça ao usuário para digitar dois números inteiros.  
+imprima a soma, subtração, multiplicação e divisão entre esses números.  
+
+Exemplo de saída:  
+```
+Digite o primeiro número: 5  
+Digite o segundo número: 3  
+Soma: 8  
+Subtração: 2  
+Multiplicação: 15  
+Divisão: 1.666...
+```
+
+---
+
+Questão 2 (2,5 pontos) 
+Escreva um programa em Python que:**  
+Peça ao usuário para digitar uma palavra.  
+Verifique se a palavra é um **palíndromo** (ou seja, se ela é igual quando lida de trás para frente).  
+imprima "É palíndromo" ou "Não é palíndromo".  
+
+Exemplo:  
+```
+Digite uma palavra: arara  
+É palíndromo!  
+```
+
+---
+
+Questão 3 (3,0 pontos)
+Escreva um programa em Python que:**  
+crie uma lista com 5 números inteiros digitados pelo usuário.  
+Calcule e imprima:  
+O maior número da lista.  
+O menor número da lista.  
+A média dos números.  
+
+Exemplo:  
+```
+Digite um número: 10  
+Digite um número: 20  
+Digite um número: 5  
+Digite um número: 15  
+Digite um número: 25  
+Maior: 25  
+Menor: 5  
+Média: 15.0  
+```
+---
+Questão 4 (2,5 pontos)**  
+Escreva uma função em Python chamada `contar_vogais` que:**  
+Recebe uma string como parâmetro.  
+Retorna o número de vogais (a, e, i, o, u) presentes na string, ignorando maiúsculas/minúsculas.  
+
+Exemplo de uso:python
+print(contar_vogais("Programação"))  
+
+Boa Prova! 
+Critérios de Correção:**  
+Funcionalidade (70%):** O código resolve o problema corretamente.  
+-Legibilidade (20%):** Organização, indentação e comentários (se necessários).  
+Originalidade (10%):** Solução criativa e eficiente.  
+
+🔹 *Entre apenas o caderno com as respostas. Não é permitido o uso de dispositivos eletrônicos.*
